@@ -1,0 +1,12 @@
+.blue {  /* У файлі зі стилями не потрібен тег <style> */
+    color: blue;
+    font-weight: bold;  /* атрибути прийнято ставити за абеткою */
+}
+.center {
+    text-align: center;
+}
+.card {
+    background-color: gray;
+    font-size: 32px;
+    padding: 5px;
+}
