@@ -1,0 +1,78 @@
+body {
+    background: #EFEFEF;
+    height: 2000px; /* для скролінгу */
+    margin: 0;
+    padding: 0;    
+}
+.pos-rel {
+    background-color: aqua;
+    height: 200px;
+    position: relative;
+    width: 200px;
+}
+.pos-abs {
+    background-color: burlywood;
+    height: 100px;
+    right: 25px; /* ( 200 - 150 ) / 2 */
+    position: absolute;
+    top: 50px;
+    width: 150px;
+}
+.pos-fix {
+    background-color: chocolate;
+    border-radius: 10px;
+    height: 50px;
+    right: 50px; 
+    position: fixed;
+    top: 50px;
+    width: 150px;
+}
+.dis-inl {
+    background-color: aquamarine;
+    display: inline;
+    height: 50px;
+}
+.dis-blo {
+    background-color: chartreuse;
+    display: block;
+    height: 50px;
+    width: 30%;  /* відсоток від очікуваного значення */
+}
+.dis-inb {
+    display: inline-block;
+    vertical-align: middle;
+}
+.h1 {
+    background-color: blue;
+    height: 50px;
+}
+.h2 {
+    background-color: coral;
+    height: 30px;
+}
+.h3 {
+    background-color: cornflowerblue;
+    height: 60px;
+}
+.d-100, .p-20, .p-20b5, .m-20 {
+    display: inline-block;
+    height: 100px;
+    vertical-align: bottom;
+    width: 100px;
+}
+.d-100 {
+    background: #EF5050;
+}
+.p-20 {
+    background: #50EF50;
+    padding: 20px;
+}
+.p-20b5 {
+    background: #5050EF;
+    border: 5px solid #50EF50;
+    padding: 20px;
+}
+.m-20 {
+    background: #50EFEF;
+    margin: 20px;
+}

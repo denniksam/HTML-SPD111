@@ -1,0 +1,31 @@
+body {
+    background: #EFEFEF;
+    margin: 0;
+    padding: 0;    
+}
+header {
+    background-color: aqua;
+    height: 20vh;
+}
+main {
+    background-color: gold;
+    height: 65vh;
+    position: relative;
+}
+footer {
+    background-color: aqua;
+    height: 15vh;
+}
+nav {
+    background-color: azure;
+    height: 100%;
+    width: 30vw;
+}
+section {
+    background-color: chartreuse;
+    height: 100%;
+    left: 30vw;
+    position: absolute;
+    top: 0;
+    width: 70vw;
+}

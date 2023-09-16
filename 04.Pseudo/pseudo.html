@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo</title>
+    <link rel="stylesheet" href="pseudo.css"/>
+</head>
+<body>
+    <ul class="menu">
+        <li>File
+            <div class="sub-menu">
+                <a href="#!">Open</a>
+                <a href="#!">Save</a>
+                <a href="#!">Exit</a>
+            </div>
+        </li>
+        <li>Edit</li>
+        <li>View</li>
+    </ul>
+    <h1>Псевдокласи та псевдоелементи</h1>
+    <h2>Псевдокласи</h2>
+    <p>
+        Псевдокласи - стильові класи (набори атрибутів), які автоматично
+        додаються елементу при настанні певних подій/умов: наведення
+        курсору миші, активація фокусом, відвідання посилання, тощо.         
+    </p>
+    <p>
+        Найпоширеніший псевдоклас - :hover, який відповідає за стан,
+        коли курсор миші знаходиться над елементом. 
+    </p>
+    <div class="hover-demo">
+        Наведи на мене мишу
+    </div>
+    <div class="sprite-demo"></div>
+    
+    <h2>Псевдоелементи</h2>
+    <p>
+        Псевдоелементи - це додаткові елементи, які належать даному
+        елементу (стилізуються і переміщуються разом з ним), але,
+        у той же час, дозволяють окрему стилізацію. 
+        Найбільш поширені псевдоелементи ::before та ::after
+        Псевдоелементи використовуються для створення комплексних
+        утворень, які сприймаються як один. 
+    </p>
+    <div class="battery bat-high"></div>
+    <div class="battery bat-med"></div>
+    <div class="battery bat-low"></div>
+</body>
+</html>

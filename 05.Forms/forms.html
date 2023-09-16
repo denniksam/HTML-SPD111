@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="forms.css"/>
+</head>
+<body>
+    <h1>Форми</h1>
+    <p>
+        Форми (зворотного зв'язку) - засоби HTML для збирання
+        (введення) даних користувачем, а також для надсилання
+        цих даних на сервер. 
+    </p>
+    <p>
+        Елементи форми - засоби для введення різних типів даних. 
+        Більшість елементів форм - це input, які значно відрізняються
+        за виглядом та роботою в залежності від типу (type)
+    </p>
+    <form>
+        <div class="form-body">
+            <h2>Реєстрація користувача</h2>
+            <label>
+                Ім'я: 
+                <input type="text" name="firstname" title='input type="text"' 
+                       placeholder="Введіть ім'я"/>
+            </label>
+            <br/>
+            <label for="user-email">E-mail:</label>
+            <input type="email" name="email" id="user-email" required />
+            <br/>
+            <label>
+                Дата народження: <input type="date" name="birthdate" />
+            </label>
+            <br/>
+            Стать:
+            <label><input type="radio" name="sex" value="M" /> Чол </label>
+            <label><input type="radio" name="sex" value="F" /> Жін </label>
+            <label><input type="radio" name="sex" value="N" /> Відмова </label>
+            <br/>
+            <label><input type="checkbox"/> Отримувати пропозиції по пошті</label>
+            <br/>
+            <label><input type="file" style="display: none;"/>Аватарка</label>
+            <br/>
+            <label>Поштовий індекс:<input type="number" step="10" value="65001"/></label>
+            <br/>
+            <label>Пароль:<input type="password"/></label>
+            <br/>
+            <label>Улюблений колір: <input type="color"/></label>
+            <br/>
+            Мова інтерфейсу:
+            <select name="lang">
+                <option value="uk">Українська</option>
+                <option value="en">English</option>
+                <option value="de">German</option>
+            </select>
+            <br/>
+            Коментар: <textarea name="comment"></textarea>
+            <br/>
+            <input type="submit" value="Реєстрація"/>
+        </div>
+    </form>
+</body>
+</html>

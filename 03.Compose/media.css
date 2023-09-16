@@ -1,0 +1,54 @@
+body {
+    background: #EFEFEF;
+    margin: 0;
+    padding: 0;    
+}
+/* поза медіа-блоками даємо стилі для усіх типів пристроїв
+*/
+p {
+    font-size: 2.5vw;
+}
+.round {
+    border: 1px solid green;
+    border-radius: 50%;
+    display: inline-block;
+    overflow: hidden;
+}
+
+/* за порадами https://www.w3schools.com/howto/howto_css_media_query_breakpoints.asp */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .images img {
+        width: 90vw;
+    }
+    /* для найменшого екрану фіксуємо розмір (далі не зменшуємо) */
+    p {
+        font-size: 15px; /* 2.5vw x 600px = 15px -- плавний перехід */
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .images img {
+        width: 45vw;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+/*
+@media only screen and (min-width: 768px) {
+    
+}*/
+
+/* Large devices (laptops/desktops, 992px and up) */
+/*
+@media only screen and (min-width: 992px) {
+    
+}*/
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .images img {
+        width: 24vw;
+    }
+}
