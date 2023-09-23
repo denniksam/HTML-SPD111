@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <link rel="stylesheet" href="flex.css"/>
+</head>
+<body>
+    <h1>Flex - контейнери</h1>
+    <p>
+        Це контейнери з покращеними можливостями керування внутрішніми
+        елементами. 
+    </p>
+    <p>
+        display: inline-flex; - блок формує ширину за вмістом, а
+        внутрішні елементи стають один-за-одним (замість переносів,
+        типових для блокових елементів)
+    </p>
+    flex-direction: row; (default)
+    <div class="container c1">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+    </div>
+    
+    flex-direction: row-reverse;
+    <div class="container c2">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+    </div>
+    <br/><br/>
+    flex-direction: column;
+    <div class="container c3">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+    </div>
+    
+    flex-direction: column-reverse;
+    <div class="container c4">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+    </div>
+
+    <br/><br/>
+    flex-wrap: nowrap;
+    <div class="container c5">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+    </div>
+    flex-wrap: wrap;
+    <div class="container c6">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+    </div>
+    
+    flex-wrap: wrap-reverse;
+    <div class="container c7">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+    </div>
+    <br/><br/>
+    justify-content: start; (default)
+    <div class="container c8">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+    </div>
+    space-between
+    <div class="container c9">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+    </div>
+    space-around
+    <div class="container c10">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+    </div>
+    space-evenly
+    <div class="container c11">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+    </div>
+    <br/><br/>
+    align-items: stretch; (default)
+    <div class="container c12">
+        <div class="item i1">1</div>
+        <div class="item i2">2</div>
+        <div class="item i3">3</div>
+        <div class="item i4">4</div>
+    </div>
+    center + 2{order:1}
+    <div class="container c13">
+        <div class="item i1">1</div>
+        <div class="item i2">2</div>
+        <div class="item i3">3</div>
+        <div class="item i4">4</div>
+    </div>
+    end, gap: 5px; + 2{flex-grow: 1;}
+    <div class="container c14">
+        <div class="item i1">1</div>
+        <div class="item i2">2</div>
+        <div class="item i3">3</div>
+        <div class="item i4">4</div>
+    </div>
+
+
+
+    <footer style="height: 50vh;"></footer>
+</body>
+</html>

@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.products-table {
+    border: 2px solid gray;
+    border-collapse: collapse;
+    margin-left: 50px;
+}
+.products-table th, 
+.products-table td {
+    border: 1px solid lightgray;
+    padding: 2px 7px;
+}
+.products-table thead tr {
+    background-color: beige;
+}
+.products-table tr:nth-child(even) { /* odd - непарний, even - парний */
+    background-color: antiquewhite;
+}
+.products-table tfoot tr {
+    background-color: moccasin;
+}
+.products-table tfoot th:nth-child(2) {
+    text-align: start;
+}
+
+.time-table {
+    border: 2px double gray;
+    border-collapse: collapse;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.time-table th,
+.time-table td {
+    border: 1px dashed lightgray;
+    padding: 2px 7px;
+    transition: font-size 0.3s;
+}
+.time-table td:hover {
+    background-color: antiquewhite;
+    font-size: larger;
+}

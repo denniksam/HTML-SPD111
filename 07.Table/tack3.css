@@ -1,0 +1,127 @@
+[17:09] Герасименко Олександр Вікторович
+
+body{
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+
+
+header{
+
+    padding: 40px 25px 30px 25px;
+
+    margin: 0 0 3vw 0;
+
+}
+
+
+
+#mymail{
+
+    display: flex;
+
+    float: left;
+
+}
+
+
+
+#account{
+
+    display: flex;
+
+    float: right;
+
+   
+
+}
+
+
+
+.imag{
+
+    display: flex;
+
+    height: 50px;
+
+   
+
+}
+
+
+
+.top_text{
+
+    padding: 0 8px 0 8px;
+
+    display: flex;
+
+   
+
+}
+
+
+
+
+
+
+
+.incom{
+
+   
+
+  list-style-image: url('incom.png');
+
+  vertical-align: middle;
+
+
+
+}
+
+
+
+
+
+
+
+.outcom{
+
+    list-style-image: url('outcom.png');
+
+    vertical-align: middle;
+
+    padding-left: 10px;
+    position: relative;
+
+  }
+  .outcom span {
+    left: 0;
+    position: absolute;
+    top: 0.5em;
+  }
+
+  .draft{
+
+    list-style-image: url('draft.png');
+
+    vertical-align: middle;
+
+   
+
+    padding-left: 10px;
+
+  }
+
+  .spam{
+
+    list-style-image: url('spam.png');
+
+    vertical-align: middle;
+
+    padding-left: 10px;
+
+  }
