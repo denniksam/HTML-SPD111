@@ -8,6 +8,15 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 </head>
 <body>
+    <nav class="navbar navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="Android.png" alt="" width="30" height="30" class="d-inline-block align-text-top">
+              08.Bootstrap
+            </a>
+          </div>
+    </nav>
+<div class="container">
     <h1>Робота з CSS-фреймворками</h1>
     <p>
         CSS-фреймворки це колекції найбільш вживаних стилей (комплексів)
@@ -30,8 +39,64 @@
         Підключення фреймворків - це додавання посилань на CSS та JS
         файли. Посилання - на стартових сторінках фреймворків. 
     </p>
-    
+    <p>
+        Контейнер - спосіб формування основного контенту. Як правило,
+        у блок-контейнер береться увесь вміст сторінки.
+    </p>
+    <div class="row">
+        <div class="col-8">
+            <div class="card mb-3">
+                <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="Android.png" class="img-fluid rounded-start" alt="Android">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                    <h5 class="card-title">Це заголовок картки</h5>
+                    <p class="card-text">Картки - основа матеріального дизайну, використовуються
+                        для різноманітних цілей: від демонстрації продукції, до складних варіантів
+                        повідомлень зі скролом декількох зображень або відтворенням динамічного 
+                        контенту. 
+                    </p>
+                    <p class="card-text"><small class="text-muted">Футер картки</small></p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <img src="wf.jpg" class="card-img-top" alt="WF">
+                <div class="card-body">
+                    <h5 class="card-title">Вертикальна картка</h5>
+                    <p class="card-text">Різновид декорації картки для різних випадків використання</p>
+                    <a href="#" class="btn btn-outline-primary">Подія картки</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <div class="row">
+        <div class="col-4">
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1"><i class="bi bi-person-bounding-box"></i></span>
+                <input type="text" class="form-control" 
+                    placeholder="Username" aria-label="Username" 
+                    aria-describedby="basic-addon1">
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1"><i class="bi bi-key"></i></span>
+                <input type="text" class="form-control" 
+                    placeholder="Password" aria-label="Username" 
+                    aria-describedby="basic-addon1">
+            </div>
+        </div>
+    </div>
+
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
